@@ -31,14 +31,13 @@ def visualize_topic_over_time(topic_id, topic_df_to_show):
     fig.update_traces(mode="lines")
     fig.update_layout(
         xaxis=dict(type="category"),
-        # legend_title="Topic ID & Top Words",
         showlegend=False,
         template="plotly_white",
     )
     return fig
 
 
-def visualize_top10words(model, topic_id):
+def visualize_top10words_lda(model, topic_id):
     # Build dataframe of word_prob for topic_id
     word_prob = model.show_topics(
         num_topics=23, num_words=10, log=False, formatted=False
@@ -66,22 +65,72 @@ def visualize_top10words(model, topic_id):
     return fig
 
 
+def visualize_top10words_bertopic(model, topic_id):
+    # Get the topic's words and their c-TF-IDF scores
+    words_scores = model.get_topic(topic_id)[:10]
+
+    # Build dataframe from the words and scores
+    df = pd.DataFrame(words_scores, columns=["Word", "c-TF-IDF Score"]).sort_values(
+        "c-TF-IDF Score"
+    )
+
+    # Create bar chart using plotly
+    fig = px.bar(
+        df,
+        x="c-TF-IDF Score",
+        y="Word",
+        title=f"Top 10 Words of Topic {topic_id}",
+        template="plotly_white",
+        orientation="h",
+        color="c-TF-IDF Score",
+        height=400,
+        color_continuous_scale="Viridis",
+    )
+
+    # Update layout to remove color bar
+    fig.update_layout(
+        coloraxis_showscale=False,
+    )
+
+    # Display chart
+    return fig
+
+
 # Function to create wordcloud for a given topic
-def create_wordcloud(lda_model, topic_id, num_words=50):
+def visualize_wordcloud_lda(model, topic_id, num_words=50):
     # Get the top words for the topic
-    topic_words = lda_model.show_topic(topic_id, topn=num_words)
+    topic_words = model.show_topic(topic_id, topn=num_words)
     wordcloud_dict = {word: freq for word, freq in topic_words}
 
     # Generate wordcloud
     wordcloud = WordCloud(
-        width=1400, height=140, background_color="white"
+        width=1400, height=200, background_color="white"
     ).generate_from_frequencies(wordcloud_dict)
 
-    return wordcloud
+    plt.title(
+        f"Top 50 Words of Topic {topic_id} in a Wordcloud",
+        fontdict={"fontsize": 6, "fontweight": "semibold", "fontfamily": "sans-serif"},
+    )
+    plt.imshow(wordcloud, interpolation="bilinear")
+    plt.axis("off")
+
+    return plt
 
 
-def display_wordcloud(lda_model, topic_id):
-    wordcloud = create_wordcloud(lda_model, topic_id)
+# Function to create wordcloud for a given topic in BERTopic
+def visualize_wordcloud_bertopic(model, topic_id, num_words=50):
+    # Get the top words for the topic and their c-TF-IDF scores
+    topic_words_scores = model.get_topic(topic_id)
+
+    # Create a dictionary of word frequencies
+    wordcloud_dict = {word: score for word, score in topic_words_scores[:num_words]}
+
+    # Generate wordcloud
+    wordcloud = WordCloud(
+        width=1400, height=200, background_color="white"
+    ).generate_from_frequencies(wordcloud_dict)
+
+    # Display the wordcloud
     plt.title(
         f"Top 50 Words of Topic {topic_id} in a Wordcloud",
         fontdict={"fontsize": 6, "fontweight": "semibold", "fontfamily": "sans-serif"},
@@ -93,30 +142,19 @@ def display_wordcloud(lda_model, topic_id):
 
 
 # Fungsi untuk memberi warna berdasarkan topik
+# Fungsi untuk memberi warna berdasarkan topik
 colors = [
     "#FFB3BA",  # Pastel Pink
     "#FFDFBA",  # Pastel Orange
     "#FFFFBA",  # Pastel Yellow
     "#BAFFC9",  # Pastel Green
     "#BAE1FF",  # Pastel Blue
-    "#FFC8DD",  # Pastel Magenta
-    "#E2F0CB",  # Pastel Lime
-    "#C9D6FF",  # Pastel Lavender
-    "#FFABAB",  # Light Coral
-    "#FFB5E8",  # Pastel Fuchsia
-    "#B28DFF",  # Pastel Purple
-    "#D4A5A5",  # Pastel Rose
-    "#C6A5FF",  # Pastel Lilac
-    "#9AD0EC",  # Pastel Sky Blue
-    "#FFC3A0",  # Pastel Peach
-    "#B5EAD7",  # Pastel Mint
-    "#FF9CEE",  # Pastel Pink Purple
-    "#FFCCF9",  # Pastel Light Pink
-    "#CAFFBF",  # Pastel Lime Green
-    "#FFD6A5",  # Pastel Apricot
-    "#FDFFB6",  # Pastel Lemon
-    "#FFC6FF",  # Pastel Orchid
-    "#9BF6FF",  # Pastel Light Cyan
+    "#E3BFFF",  # Pastel Purple
+    "#FFD1DC",  # Pastel Light Pink
+    "#BFFCC6",  # Pastel Mint
+    "#C9C9FF",  # Pastel Lavender
+    "#FFCCF9",  # Pastel Magenta
+    "#FDFD96",  # Pastel Lemon
 ]
 
 
@@ -141,12 +179,12 @@ def visualize_topic_distribution(distribution):
             go.Bar(
                 y=["Document Topics"],  # A single bar divided into segments
                 x=[prob],
-                name=f"Topic {topic_id}",
+                name=f"<b>Topic {topic_id}</b>",
                 orientation="h",
                 marker=dict(color=colors[topic_id]),
-                hoverinfo="x+name",
-                hovertemplate="<b>%{x}</b>",
-                text=[f"{topic_id}"],
+                hoverinfo="none",  # This disables default hoverinfo
+                hovertemplate="<b>Topic ID:</b> %{text}<br><b>Probability:</b> %{x:.2%}",
+                text=[f"{topic_id}"],  # Custom text to be used in hovertemplate
             )
         )
 
