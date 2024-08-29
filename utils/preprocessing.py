@@ -24,6 +24,8 @@ def cleaning(text):
     text = re.sub(r"[^\w\s]", "", text)
     # Remove numbers
     text = re.sub(r"\d+", "", text)
+    # Remove extra whitespace
+    text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
