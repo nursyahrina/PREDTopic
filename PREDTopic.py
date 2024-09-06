@@ -26,7 +26,7 @@ st.set_page_config(page_title="PREDTopic App", page_icon=":bar_chart:", layout="
 data_path = "data/"
 lda_model_path = "models/lda_model/"
 bertopic_model_path = "models/bertopic_model"
-materials_path = "materials/"
+materials_path = "materials/documentation/"
 
 
 # LOAD DATA
@@ -248,10 +248,10 @@ def display_topic_viz_docs(topic_id, container):
 
         # Display representative documents
 
-        # st.markdown(
-        #     f"<h5 style:'margin-top:12px;'>Representative Documents of Topic {topic_id}</h5>",
-        #     unsafe_allow_html=True,
-        # )
+        st.markdown(
+            f"<h5 style:'margin-top:12px;'>Representative Documents of Topic {topic_id}</h5>",
+            unsafe_allow_html=True,
+        )
         for index, row in top_10_docs.iterrows():
             index_string = str(index + 1)
             expander = st.empty()
