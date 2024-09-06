@@ -1,250 +1,196 @@
-# packages in environment at C:\Users\nursy\anaconda3\envs\topic_env:
-#
-# Name                    Version                   Build  Channel
-abseil-cpp                20211102.0           hd77b12b_0    anaconda
-aiohttp                   3.8.5           py310h2bbff1b_0    anaconda
-aiosignal                 1.2.0              pyhd3eb1b0_0    anaconda
-altair                    5.0.1           py310haa95532_0    anaconda
-annotated-types           0.7.0              pyhd8ed1ab_0    conda-forge
-arrow-cpp                 11.0.0               ha81ea56_2    anaconda
-asttokens                 2.0.5              pyhd3eb1b0_0    anaconda
-async-timeout             4.0.2           py310haa95532_0    anaconda
-attrs                     23.1.0          py310haa95532_0    anaconda
-aws-c-common              0.6.8                h2bbff1b_1    anaconda
-aws-c-event-stream        0.1.6                hd77b12b_6    anaconda
-aws-checksums             0.1.11               h2bbff1b_2    anaconda
-aws-sdk-cpp               1.8.185              hd77b12b_1    anaconda
-babel                     2.11.0          py310haa95532_0    anaconda
-backcall                  0.2.0              pyhd3eb1b0_0    anaconda
-bertopic                  0.16.2             pyhd8ed1ab_0    conda-forge
-blas                      1.0                         mkl    anaconda
-blinker                   1.6.2           py310haa95532_0    anaconda
-blis                      0.7.11                   pypi_0    pypi
-boost-cpp                 1.82.0               h59b6b97_2    anaconda
-bottleneck                1.3.5           py310h9128911_0    anaconda
-brotli                    1.0.9                h2bbff1b_7    anaconda
-brotli-bin                1.0.9                h2bbff1b_7    anaconda
-brotli-python             1.0.9           py310hd77b12b_7    anaconda
-bzip2                     1.0.8                he774522_0    anaconda
-c-ares                    1.19.1               h2bbff1b_0    anaconda
-ca-certificates           2024.7.4             h56e8100_0    conda-forge
-cachetools                4.2.2              pyhd3eb1b0_0    anaconda
-catalogue                 2.0.10          py310h5588dad_0    conda-forge
-certifi                   2024.7.4        py310haa95532_0    anaconda
-cffi                      1.16.0          py310h2bbff1b_0    anaconda
-charset-normalizer        2.0.4              pyhd3eb1b0_0    anaconda
-click                     8.1.7           py310haa95532_0    anaconda
-cloudpathlib              0.18.1             pyhd8ed1ab_0    conda-forge
-colorama                  0.4.6           py310haa95532_0    anaconda
-comm                      0.1.2           py310haa95532_0    anaconda
-confection                0.1.5                    pypi_0    pypi
-contourpy                 1.0.5           py310h59b6b97_0    anaconda
-cryptography              41.0.3          py310h89fc84f_0    anaconda
-cycler                    0.11.0             pyhd3eb1b0_0    anaconda
-cymem                     2.0.8           py310h00ffb61_1    conda-forge
-cython                    0.29.36         py310h2bbff1b_0    anaconda
-cython-blis               0.7.10          py310h3e78b6c_2    conda-forge
-datasets                  2.12.0          py310haa95532_0    anaconda
-debugpy                   1.6.7           py310hd77b12b_0    anaconda
-decorator                 5.1.1              pyhd3eb1b0_0    anaconda
-dill                      0.3.6           py310haa95532_0    anaconda
-en-core-web-sm            3.7.1                    pypi_0    pypi
-exceptiongroup            1.0.4           py310haa95532_0    anaconda
-executing                 0.8.3              pyhd3eb1b0_0    anaconda
-filelock                  3.9.0           py310haa95532_0    anaconda
-fonttools                 4.25.0             pyhd3eb1b0_0    anaconda
-freetype                  2.12.1               ha860e81_0    anaconda
-frozenlist                1.4.0           py310h2bbff1b_0    anaconda
-fsspec                    2023.9.2        py310haa95532_0    anaconda
-gensim                    4.3.0           py310h4ed8f06_0    anaconda
-gflags                    2.2.2                ha925a31_0    anaconda
-giflib                    5.2.1                h8cc25b3_3    anaconda
-gitdb                     4.0.7              pyhd3eb1b0_0    anaconda
-gitpython                 3.1.37          py310haa95532_0    anaconda
-glog                      0.5.0                hd77b12b_0    anaconda
-grpc-cpp                  1.48.2               hfe90ff0_1    anaconda
-hdbscan                   0.8.36          py310h4df5e4a_0    conda-forge
-huggingface-hub           0.24.6                   pypi_0    pypi
-icc_rt                    2022.1.0             h6049295_2    anaconda
-icu                       73.1                 h6c2663c_0    anaconda
-idna                      3.4             py310haa95532_0    anaconda
-importlib-metadata        6.0.0           py310haa95532_0    anaconda
-intel-openmp              2023.1.0         h59b6b97_46320    anaconda
-ipykernel                 6.25.0          py310h9909e9c_0    anaconda
-ipython                   8.15.0          py310haa95532_0    anaconda
-ipywidgets                8.0.4           py310haa95532_0    anaconda
-jedi                      0.18.1          py310haa95532_1    anaconda
-jinja2                    3.1.2           py310haa95532_0    anaconda
-joblib                    1.2.0           py310haa95532_0    anaconda
-jpeg                      9e                   h2bbff1b_1    anaconda
-jsonschema                4.19.2          py310haa95532_0    anaconda
-jsonschema-specifications 2023.7.1        py310haa95532_0    anaconda
-jupyter_client            8.6.0           py310haa95532_0    anaconda
-jupyter_core              5.5.0           py310haa95532_0    anaconda
-jupyterlab_widgets        3.0.9           py310haa95532_0    anaconda
-kiwisolver                1.4.4           py310hd77b12b_0    anaconda
-krb5                      1.20.1               h5b6d351_1    anaconda
-langcodes                 3.4.0              pyhd8ed1ab_0    conda-forge
-language-data             1.2.0              pyhd8ed1ab_0    conda-forge
-lerc                      3.0                  hd77b12b_0    anaconda
-libboost                  1.82.0               h3399ecb_2    anaconda
-libbrotlicommon           1.0.9                h2bbff1b_7    anaconda
-libbrotlidec              1.0.9                h2bbff1b_7    anaconda
-libbrotlienc              1.0.9                h2bbff1b_7    anaconda
-libclang                  14.0.6          default_hb5a9fac_1    anaconda
-libclang13                14.0.6          default_h8e68704_1    anaconda
-libcurl                   7.88.1               h86230a5_2    anaconda
-libdeflate                1.17                 h2bbff1b_1    anaconda
-libevent                  2.1.12               h56d1f94_1    anaconda
-libffi                    3.4.4                hd77b12b_0    anaconda
-libpng                    1.6.39               h8cc25b3_0    anaconda
-libpq                     12.15                h906ac69_1    anaconda
-libprotobuf               3.20.3               h23ce68f_0    anaconda
-libsodium                 1.0.18               h62dcd97_0    anaconda
-libssh2                   1.10.0               he2ea4bf_2    anaconda
-libthrift                 0.15.0               h4364b78_2    anaconda
-libtiff                   4.5.1                hd77b12b_0    anaconda
-libuv                     1.44.2               h2bbff1b_0    anaconda
-libwebp                   1.3.2                hbc33d0d_0    anaconda
-libwebp-base              1.3.2                h2bbff1b_0    anaconda
-llvmlite                  0.41.0          py310hf2fb9eb_0    anaconda
-lz4-c                     1.9.4                h2bbff1b_0    anaconda
-marisa-trie               1.2.0                    pypi_0    pypi
-markdown-it-py            2.2.0           py310haa95532_1    anaconda
-markupsafe                2.1.1           py310h2bbff1b_0    anaconda
-matplotlib                3.8.0           py310haa95532_0    anaconda
-matplotlib-base           3.8.0           py310h4ed8f06_0    anaconda
-matplotlib-inline         0.1.6           py310haa95532_0    anaconda
-mdurl                     0.1.0           py310haa95532_0    anaconda
-mkl                       2023.1.0         h6b88ed4_46358    anaconda
-mkl-service               2.4.0           py310h2bbff1b_1    anaconda
-mkl_fft                   1.3.8           py310h2bbff1b_0    anaconda
-mkl_random                1.2.4           py310h59b6b97_0    anaconda
-mpmath                    1.3.0           py310haa95532_0    anaconda
-multidict                 6.0.2           py310h2bbff1b_0    anaconda
-multiprocess              0.70.14         py310haa95532_0    anaconda
-munkres                   1.1.4                      py_0    anaconda
-murmurhash                1.0.10          py310h00ffb61_1    conda-forge
-nest-asyncio              1.5.6           py310haa95532_0    anaconda
-networkx                  3.1             py310haa95532_0    anaconda
-ninja                     1.10.2               haa95532_5    anaconda
-ninja-base                1.10.2               h6d14046_5    anaconda
-nltk                      3.9.1           py310haa95532_0    anaconda
-numba                     0.58.1          py310hd77b12b_0  
-numexpr                   2.8.7           py310h2cd9be0_0    anaconda
-numpy                     1.26.4          py310h055cbcc_0  
-numpy-base                1.26.4          py310h65a83cf_0  
-openjpeg                  2.4.0                h4fc8c34_0    anaconda
-openssl                   3.3.1                h2466b09_1    conda-forge
-orc                       1.7.4                h623e30f_1    anaconda
-packaging                 23.1            py310haa95532_0    anaconda
-pandas                    2.1.1           py310h4ed8f06_0    anaconda
-parso                     0.8.3              pyhd3eb1b0_0    anaconda
-patsy                     0.5.3           py310haa95532_0    anaconda
-pickleshare               0.7.5           pyhd3eb1b0_1003    anaconda
-pillow                    9.4.0           py310hd77b12b_1    anaconda
-pip                       23.3            py310haa95532_0    anaconda
-platformdirs              3.10.0          py310haa95532_0    anaconda
-plotly                    5.9.0           py310haa95532_0    anaconda
-plotly_express            0.4.1                      py_0    conda-forge
-ply                       3.11            py310haa95532_0    anaconda
-preshed                   3.0.9           py310h00ffb61_1    conda-forge
-prompt-toolkit            3.0.36          py310haa95532_0    anaconda
-protobuf                  3.20.3          py310hd77b12b_0    anaconda
-psutil                    5.9.0           py310h2bbff1b_0    anaconda
-pure_eval                 0.2.2              pyhd3eb1b0_0    anaconda
-pyarrow                   11.0.0          py310h790e06d_1    anaconda
-pycparser                 2.21               pyhd3eb1b0_0    anaconda
-pydantic                  2.8.2              pyhd8ed1ab_0    conda-forge
-pydantic-core             2.20.1          py310hc226416_0    conda-forge
-pydeck                    0.8.0              pyhd8ed1ab_0    conda-forge
-pygments                  2.15.1          py310haa95532_1    anaconda
-pympler                   0.9                        py_0    anaconda
-pynndescent               0.5.10          py310haa95532_0    anaconda
-pyopenssl                 23.2.0          py310haa95532_0    anaconda
-pyparsing                 3.0.9           py310haa95532_0    anaconda
-pyqt                      5.15.10         py310hd77b12b_0    anaconda
-pyqt5-sip                 12.13.0         py310h2bbff1b_0    anaconda
-pysocks                   1.7.1           py310haa95532_0    anaconda
-python                    3.10.13              he1021f5_0    anaconda
-python-dateutil           2.8.2              pyhd3eb1b0_0    anaconda
-python-tzdata             2023.3             pyhd3eb1b0_0    anaconda
-python-xxhash             2.0.2           py310h2bbff1b_1    anaconda
-python_abi                3.10                    2_cp310    conda-forge
-pytorch                   2.1.0           cpu_py310hb0bdfb8_0    anaconda
-pytz                      2023.3.post1    py310haa95532_0    anaconda
-pywin32                   305             py310h2bbff1b_0    anaconda
-pyyaml                    6.0.1           py310h2bbff1b_0    anaconda
-pyzmq                     25.1.0          py310hd77b12b_0    anaconda
-qt-main                   5.15.2              h19c9488_10    anaconda
-re2                       2022.04.01           hd77b12b_0    anaconda
-referencing               0.30.2          py310haa95532_0    anaconda
-regex                     2023.10.3       py310h2bbff1b_0    anaconda
-requests                  2.31.0          py310haa95532_0    anaconda
-responses                 0.13.3             pyhd3eb1b0_0    anaconda
-rich                      13.3.5          py310haa95532_0    anaconda
-rpds-py                   0.10.6          py310h062c2fa_0    anaconda
-safetensors               0.4.4                    pypi_0    pypi
-scikit-learn              1.3.0           py310h4ed8f06_0    anaconda
-scipy                     1.11.3          py310h309d312_0    anaconda
-sentence-transformers     3.0.1              pyhd8ed1ab_0    conda-forge
-sentencepiece             0.1.99          py310h59b6b97_0    anaconda
-setuptools                68.0.0          py310haa95532_0    anaconda
-shellingham               1.5.4              pyhd8ed1ab_0    conda-forge
-sip                       6.7.12          py310hd77b12b_0    anaconda
-six                       1.16.0             pyhd3eb1b0_1    anaconda
-smart_open                5.2.1           py310haa95532_0    anaconda
-smmap                     4.0.0              pyhd3eb1b0_0    anaconda
-snappy                    1.1.9                h6c2663c_0    anaconda
-spacy                     3.7.5           py310hc19bc0b_0    conda-forge
-spacy-legacy              3.0.12             pyhd8ed1ab_0    conda-forge
-spacy-loggers             1.0.5              pyhd8ed1ab_0    conda-forge
-sqlite                    3.41.2               h2bbff1b_0    anaconda
-srsly                     2.4.8           py310h00ffb61_1    conda-forge
-stack_data                0.2.0              pyhd3eb1b0_0    anaconda
-statsmodels               0.14.0          py310h9128911_0    anaconda
-streamlit                 1.36.0             pyhd8ed1ab_0    conda-forge
-sympy                     1.11.1          py310haa95532_0    anaconda
-tbb                       2021.8.0             h59b6b97_0    anaconda
-tenacity                  8.2.2           py310haa95532_0    anaconda
-thinc                     8.2.5                    pypi_0    pypi
-threadpoolctl             2.2.0              pyh0d69192_0    anaconda
-tk                        8.6.12               h2bbff1b_0    anaconda
-tokenizers                0.19.1                   pypi_0    pypi
-toml                      0.10.2             pyhd3eb1b0_0    anaconda
-tomli                     2.0.1           py310haa95532_0    anaconda
-toolz                     0.12.0          py310haa95532_0    anaconda
-torchvision               0.15.2          cpu_py310h7187fe4_0    anaconda
-tornado                   6.3.3           py310h2bbff1b_0    anaconda
-tqdm                      4.65.0          py310h9909e9c_0    anaconda
-traitlets                 5.7.1           py310haa95532_0    anaconda
-transformers              4.44.2                   pypi_0    pypi
-typer                     0.9.4              pyhd8ed1ab_0    conda-forge
-typing-extensions         4.7.1           py310haa95532_0    anaconda
-typing_extensions         4.7.1           py310haa95532_0    anaconda
-tzdata                    2023c                h04d1e81_0    anaconda
-tzlocal                   2.1             py310haa95532_1    anaconda
-ucrt                      10.0.20348.0         haa95532_0    anaconda
-umap-learn                0.5.6           py310h5588dad_0    conda-forge
-urllib3                   1.26.18         py310haa95532_0    anaconda
-utf8proc                  2.6.1                h2bbff1b_0    anaconda
-validators                0.18.2             pyhd3eb1b0_0    anaconda
-vc                        14.2                 h21ff451_1    anaconda
-vc14_runtime              14.40.33810         ha82c5b3_20    conda-forge
-vs2015_runtime            14.40.33810         h3bf8584_20    conda-forge
-wasabi                    1.1.3                    pypi_0    pypi
-watchdog                  2.1.6           py310haa95532_0    anaconda
-wcwidth                   0.2.5              pyhd3eb1b0_0    anaconda
-weasel                    0.4.1                    pypi_0    pypi
-wheel                     0.41.2          py310haa95532_0    anaconda
-widgetsnbextension        4.0.5           py310haa95532_0    anaconda
-win_inet_pton             1.1.0           py310haa95532_0    anaconda
-wordcloud                 1.9.2           py310h2bbff1b_0    anaconda
-xxhash                    0.8.0                h2bbff1b_3    anaconda
-xz                        5.4.2                h8cc25b3_0    anaconda
-yaml                      0.2.5                he774522_0    anaconda
-yarl                      1.8.1           py310h2bbff1b_0    anaconda
-zeromq                    4.3.4                hd77b12b_0    anaconda
-zipp                      3.11.0          py310haa95532_0    anaconda
-zlib                      1.2.13               h8cc25b3_0    anaconda
-zstd                      1.5.5                hd43e919_0    anaconda
+aiohttp @ file:///C:/b/abs_b78zt6vo64/croot/aiohttp_1694181126607/work
+aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
+altair==5.1.2
+altgraph==0.17.4
+annotated-types @ file:///home/conda/feedstock_root/build_artifacts/annotated-types_1716290248287/work
+anyio==3.6.2
+appdirs==1.4.4
+astroid==3.0.0
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+async-timeout @ file:///C:/b/abs_43ozhz2a8g/croots/recipe/async-timeout_1664876362767/work
+attrs==23.1.0
+Babel @ file:///C:/b/abs_a2shv_3tqi/croot/babel_1671782804377/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+beautifulsoup4==4.12.0
+bertopic @ file:///home/conda/feedstock_root/build_artifacts/bertopic_1716381086498/work
+blinker==1.7.0
+blis @ file:///D:/bld/cython-blis_1696148994513/work
+Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
+Brotli @ file:///C:/Windows/Temp/abs_63l7912z0e/croots/recipe/brotli-split_1659616056886/work
+cachetools==5.3.2
+catalogue @ file:///D:/bld/catalogue_1695626473778/work
+certifi==2022.12.7
+cffi==1.15.1
+charset-normalizer==3.1.0
+click==8.1.3
+cloudpathlib @ file:///home/conda/feedstock_root/build_artifacts/cloudpathlib-meta_1708995864616/work
+colorama==0.4.6
+comm @ file:///C:/b/abs_1419earm7u/croot/comm_1671231131638/work
+confection @ file:///D:/bld/confection_1701179276886/work
+contourpy @ file:///C:/b/abs_d5rpy288vc/croots/recipe/contourpy_1663827418189/work
+cryptography @ file:///C:/b/abs_f4do8t8jfs/croot/cryptography_1694444424531/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+cymem @ file:///D:/bld/cymem_1695443649574/work
+Cython @ file:///C:/b/abs_cf1v349rdk/croot/cython_1690291254267/work
+datasets @ file:///C:/b/abs_a3jy4vrfuo/croot/datasets_1684484478038/work
+debugpy @ file:///C:/b/abs_c0y1fjipt2/croot/debugpy_1690906864587/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+dill==0.3.7
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
+exceptiongroup @ file:///C:/b/abs_25wqfvkf25/croot/exceptiongroup_1668714345637/work
+executing @ file:///opt/conda/conda-bld/executing_1646925071911/work
+fastapi==0.95.2
+filelock @ file:///C:/b/abs_c7yrhs9uz2/croot/filelock_1672387617533/work
+flake8==6.1.0
+fonttools==4.25.0
+frozendict==2.3.6
+frozenlist @ file:///C:/b/abs_d8e__s1ys3/croot/frozenlist_1698702612014/work
+fsspec @ file:///C:/b/abs_58vvwg8ovv/croot/fsspec_1695734561037/work
+gensim @ file:///C:/b/abs_a5vat69tv8/croot/gensim_1674853640591/work
+gitdb==4.0.11
+GitPython==3.1.40
+h11==0.14.0
+hdbscan @ file:///D:/bld/hdbscan_1716593377946/work
+html5lib==1.1
+huggingface-hub==0.24.6
+idna==3.4
+importlib-metadata @ file:///C:/b/abs_20ndzb2j6v/croot/importlib-metadata_1678997085534/work
+ipykernel @ file:///C:/b/abs_07rkft_vaz/croot/ipykernel_1691121700587/work
+ipython @ file:///C:/b/abs_e5729i179y/croot/ipython_1694181400005/work
+ipywidgets @ file:///C:/b/abs_5awapknmz_/croot/ipywidgets_1679394824767/work
+isort==5.12.0
+jedi @ file:///C:/ci/jedi_1644315428305/work
+Jinja2==3.1.2
+joblib @ file:///C:/b/abs_1anqjntpan/croot/joblib_1685113317150/work
+jsonschema==4.19.2
+jsonschema-specifications==2023.7.1
+jupyter_client @ file:///C:/b/abs_a6h3c8hfdq/croot/jupyter_client_1699455939372/work
+jupyter_core @ file:///C:/b/abs_c769pbqg9b/croot/jupyter_core_1698937367513/work
+jupyterlab-widgets @ file:///C:/b/abs_adrrqr26no/croot/jupyterlab_widgets_1700169018974/work
+kiwisolver @ file:///C:/b/abs_88mdhvtahm/croot/kiwisolver_1672387921783/work
+langcodes @ file:///home/conda/feedstock_root/build_artifacts/langcodes_1714235526219/work
+language_data @ file:///home/conda/feedstock_root/build_artifacts/language-data_1714193818885/work
+llvmlite @ file:///C:/b/abs_458aeunq7a/croot/llvmlite_1697031108211/work
+lxml==4.9.2
+marisa-trie @ file:///D:/bld/marisa-trie_1706566630750/work
+markdown-it-py==3.0.0
+MarkupSafe==2.1.3
+matplotlib @ file:///C:/b/abs_e26vnvd5s1/croot/matplotlib-suite_1698692153288/work
+matplotlib-inline @ file:///C:/ci/matplotlib-inline_1661934094726/work
+mccabe==0.7.0
+mdurl==0.1.2
+mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
+mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-service==2.4.0
+mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
+multidict @ file:///C:/b/abs_6cx_8w3cv2/croot/multidict_1665674238352/work
+multiprocess @ file:///C:/b/abs_ca0rg6wl6_/croot/multiprocess_1668006439310/work
+multitasking==0.0.11
+munkres==1.1.4
+murmurhash @ file:///D:/bld/murmurhash_1695449977964/work
+nest-asyncio @ file:///C:/b/abs_3a_4jsjlqu/croot/nest-asyncio_1672387322800/work
+networkx @ file:///C:/b/abs_e6gi1go5op/croot/networkx_1690562046966/work
+nltk @ file:///C:/b/abs_3e10flry37/croot/nltk_1724427703710/work
+numba @ file:///C:/b/abs_2eee8kaps6/croot/numba_1701362407655/work
+numexpr @ file:///C:/b/abs_5fucrty5dc/croot/numexpr_1696515448831/work
+numpy==1.24.2
+packaging @ file:///C:/b/abs_28t5mcoltc/croot/packaging_1693575224052/work
+pandas==1.5.3
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+patsy==0.5.3
+pefile==2023.2.7
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==10.0.1
+platformdirs==3.11.0
+plotly @ file:///C:/ci/plotly_1658160673416/work
+plotly-express==0.4.1
+ply==3.11
+preshed @ file:///D:/bld/preshed_1695645043058/work
+prompt-toolkit @ file:///C:/b/abs_6coz5_9f2s/croot/prompt-toolkit_1672387908312/work
+protobuf==4.25.0
+psutil @ file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pyarrow==14.0.0
+pycodestyle==2.11.0
+pycparser==2.21
+pydantic==1.10.7
+pydantic_core @ file:///D:/bld/pydantic-core_1720041362737/work
+pydeck==0.8.1b0
+pyflakes==3.1.0
+Pygments==2.16.1
+pyinstaller==6.0.0
+pyinstaller-hooks-contrib==2023.9
+pylint==3.0.1
+Pympler @ file:///tmp/build/80754af9/pympler_1602785470644/work
+pynndescent @ file:///C:/b/abs_adtarat_4i/croot/pynndescent_1685342059317/work
+pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
+pyparsing @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work
+PyQt5==5.15.10
+PyQt5-sip @ file:///C:/b/abs_c0pi2mimq3/croot/pyqt-split_1698769125270/work/pyqt_sip
+PySocks @ file:///C:/ci_310/pysocks_1642089375450/work
+python-dateutil==2.8.2
+pytz==2022.7.1
+pywin32==305.1
+pywin32-ctypes==0.2.2
+PyYAML @ file:///C:/b/abs_782o3mbw7z/croot/pyyaml_1698096085010/work
+pyzmq @ file:///C:/b/abs_655zk4a3s8/croot/pyzmq_1686601465034/work
+referencing==0.30.2
+regex @ file:///C:/b/abs_d5e2e5uqmr/croot/regex_1696515472506/work
+requests==2.28.2
+responses @ file:///tmp/build/80754af9/responses_1619800270522/work
+rich==13.6.0
+rpds-py==0.12.0
+safetensors==0.4.4
+scikit-learn @ file:///C:/b/abs_55olq_4gzc/croot/scikit-learn_1690978955123/work
+scipy==1.11.3
+sentence-transformers @ file:///home/conda/feedstock_root/build_artifacts/sentence-transformers_1717773313300/work
+sentencepiece @ file:///C:/b/abs_f7cttiucvr/croot/sentencepiece_1684525347071/work/python
+shellingham @ file:///home/conda/feedstock_root/build_artifacts/shellingham_1698144360966/work
+sip @ file:///C:/b/abs_edevan3fce/croot/sip_1698675983372/work
+six==1.16.0
+smart-open @ file:///C:/ci/smart_open_1651235038100/work
+smmap==5.0.1
+sniffio==1.3.0
+soupsieve==2.4
+spacy @ file:///D:/bld/spacy_1720075693835/work
+spacy-legacy @ file:///home/conda/feedstock_root/build_artifacts/spacy-legacy_1674550301837/work
+spacy-loggers @ file:///home/conda/feedstock_root/build_artifacts/spacy-loggers_1694527114282/work
+srsly @ file:///D:/bld/srsly_1695654140438/work
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+starlette==0.27.0
+statsmodels @ file:///C:/b/abs_7bth810rna/croot/statsmodels_1689937298619/work
+streamlit @ file:///home/conda/feedstock_root/build_artifacts/streamlit_1718936279380/work
+sympy @ file:///C:/b/abs_95fbf1z7n6/croot/sympy_1668202411612/work
+tenacity==8.2.3
+thinc @ file:///D:/bld/thinc_1715461821409/work
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+tokenizers==0.19.1
+toml==0.10.2
+tomli==2.0.1
+tomlkit==0.12.1
+toolz==0.12.0
+torch @ file:///C:/b/abs_2112s1s0to/croot/pytorch-select_1700158736573/work
+torchvision @ file:///C:/b/abs_61prww4bv9/croot/torchvision_1689079992237/work
+tornado==6.3.3
+tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
+traitlets @ file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work
+transformers==4.44.2
+typer @ file:///home/conda/feedstock_root/build_artifacts/typer_1711217621866/work
+typing_extensions==4.6.0
+tzdata==2023.3
+tzlocal==5.2
+umap-learn @ file:///D:/bld/umap-learn_1719960965404/work
+urllib3==1.26.15
+uvicorn==0.22.0
+validators==0.22.0
+wasabi @ file:///D:/bld/wasabi_1715409731580/work
+watchdog==3.0.0
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+weasel @ file:///home/conda/feedstock_root/build_artifacts/weasel_1717679072192/work
+webencodings==0.5.1
+widgetsnbextension @ file:///C:/b/abs_882k4_4kdf/croot/widgetsnbextension_1679313880295/work
+win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
+wordcloud @ file:///C:/b/abs_66ccn47hik/croot/wordcloud_1687301655958/work
+xxhash @ file:///C:/b/abs_e59ry5bslh/croot/python-xxhash_1667919514787/work
+yarl @ file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_e5nlunspj6/croots/recipe/yarl_1661437086516/work
+zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
