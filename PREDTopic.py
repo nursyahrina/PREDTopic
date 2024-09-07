@@ -62,6 +62,7 @@ bertopic_model = BERTopic.load(f"{bertopic_model_path}")
 
 # Ensure necessary NLTK data is downloaded
 nltk.download("punkt")
+nltk.download("punkt_tab")
 nltk.download("stopwords")
 nltk.download("wordnet")
 nltk.download("averaged_perceptron_tagger")
