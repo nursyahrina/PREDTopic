@@ -286,17 +286,6 @@ def display_topic_viz_docs(topic_id, container):
     return container_top, container_mid
 
 
-import tensorflow as tf
-
-st.title("Check GPU Availability")
-
-gpus = tf.config.list_physical_devices("GPU")
-if gpus:
-    st.write("GPU is available!")
-    st.write(f"Number of GPUs: {len(gpus)}")
-else:
-    st.write("No GPU available.")
-
 # Inisialisasi state
 init_state()
 
