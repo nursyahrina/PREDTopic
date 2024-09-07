@@ -18,12 +18,6 @@ from utils.visualization import (
     print_topic_colors,
 )
 
-# Ensure necessary NLTK data is downloaded
-nltk.download("punkt")
-nltk.download("stopwords")
-nltk.download("wordnet")
-nltk.download("averaged_perceptron_tagger")
-
 # SETTINGS
 
 # Set theme
@@ -65,6 +59,12 @@ dictionary = corpora.Dictionary.load(f"{best_lda_model_path}.id2word")
 
 # Load BERTopic model
 bertopic_model = BERTopic.load(f"{bertopic_model_path}")
+
+# Ensure necessary NLTK data is downloaded
+nltk.download("punkt")
+nltk.download("stopwords")
+nltk.download("wordnet")
+nltk.download("averaged_perceptron_tagger")
 
 # Load spaCy model for visualization
 nlp = spacy.load("en_core_web_sm")
