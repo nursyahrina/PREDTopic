@@ -86,7 +86,7 @@ The analysis reveals not only the dominant research areas but also emerging fiel
 
 with tab3:
     st.markdown("### What's in PREDTopic?", unsafe_allow_html=True)
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2, gap="medium")
     with col1:
         st.markdown(app_layout, unsafe_allow_html=True)
     with col2:
@@ -97,7 +97,7 @@ with tab3:
             output_format="PNG",
         )
     st.markdown("#### Here are the key features:", unsafe_allow_html=True)
-    col3, col4 = st.columns(2)
+    col3, col4 = st.columns(2, gap="medium")
     with col3:
         st.markdown(feature_list1, unsafe_allow_html=True)
     with col4:
@@ -118,7 +118,7 @@ When you first launch PREDTopic, it will automatically load the data and display
         use_column_width=True,
         output_format="PNG",
     )
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2, gap="medium")
     with col1:
         st.markdown(
             """#### 2. **Selecting a Topic Model**
@@ -146,7 +146,7 @@ When you first launch PREDTopic, it will automatically load the data and display
             output_format="PNG",
         )
     st.markdown("#### 4. **Predicting a Research Topic**", unsafe_allow_html=True)
-    col3, col4 = st.columns(2)
+    col3, col4 = st.columns(2, gap="medium")
     with col3:
         st.markdown(
             """To get a topic prediction based on your research idea, enter your text into the **Predict Research Idea** input box located in the **Sidebar**. 
