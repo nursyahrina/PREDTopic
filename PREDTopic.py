@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import spacy
+import nltk
 from gensim import corpora
 from gensim.models import LdaModel
 from bertopic import BERTopic
@@ -16,6 +17,12 @@ from utils.visualization import (
     create_colored_text,
     print_topic_colors,
 )
+
+# Ensure necessary NLTK data is downloaded
+nltk.download("punkt")
+nltk.download("stopwords")
+nltk.download("wordnet")
+nltk.download("averaged_perceptron_tagger")
 
 # SETTINGS
 
