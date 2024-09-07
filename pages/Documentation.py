@@ -61,7 +61,7 @@ This quantitative analysis was then interpreted within the context of broader tr
     st.markdown("#### BERTopic Model Insights", unsafe_allow_html=True)
     st.image(
         f"{images_path}heatmap_BERTopic.png",
-        caption="Fig 2.1. Topic Trend Evolution Heatmap using BERTopic Model",
+        caption="Fig 2.1 Topic Trend Evolution Heatmap using BERTopic Model",
         use_column_width=True,
         output_format="PNG",
     )
@@ -70,7 +70,7 @@ This quantitative analysis was then interpreted within the context of broader tr
     st.markdown("#### LDA Model Insights", unsafe_allow_html=True)
     st.image(
         f"{images_path}heatmap_LDA.png",
-        caption="Fig 2.2. Topic Trend Evolution Heatmap using LDA Model",
+        caption="Fig 2.2 Topic Trend Evolution Heatmap using LDA Model",
         use_column_width=True,
         output_format="PNG",
     )
@@ -92,7 +92,7 @@ with tab3:
     with col2:
         st.image(
             f"{images_path}app_features.png",
-            caption="Fig 1. PREDTopic Features",
+            caption="Fig 3.1 PREDTopic Features",
             use_column_width=True,
             output_format="PNG",
         )
@@ -114,7 +114,7 @@ When you first launch PREDTopic, it will automatically load the data and display
     )
     st.image(
         f"{images_path}default_view.png",
-        caption="Fig 1. Default View of The Main Page",
+        caption="Fig 4.1 Default View of The Main Page",
         use_column_width=True,
         output_format="PNG",
     )
@@ -128,7 +128,7 @@ When you first launch PREDTopic, it will automatically load the data and display
         )
         st.image(
             f"{images_path}model_options.png",
-            caption="Fig 2. Choosing a Topic Model",
+            caption="Fig 4.2 Choosing a Topic Model",
             use_column_width=True,
             output_format="PNG",
         )
@@ -141,7 +141,7 @@ When you first launch PREDTopic, it will automatically load the data and display
         )
         st.image(
             f"{images_path}topic_options.png",
-            caption="Fig 3. Choosing a Topic Based on The Selected Model",
+            caption="Fig 4.3 Choosing a Topic Based on The Selected Model",
             use_column_width=True,
             output_format="PNG",
         )
@@ -156,7 +156,7 @@ When you first launch PREDTopic, it will automatically load the data and display
         )
         st.image(
             f"{images_path}input_text.png",
-            caption="Fig 4. Input Text Describing Research Idea and Choose Model for Prediction",
+            caption="Fig 4.4 Input Text Describing Research Idea and Choose Model for Prediction",
             use_column_width=True,
             output_format="PNG",
         )
@@ -169,7 +169,7 @@ When you first launch PREDTopic, it will automatically load the data and display
         )
         st.image(
             f"{images_path}prediction_BERTopic.png",
-            caption="Fig 6. Prediction Result by BERTopic Model",
+            caption="Fig 4.5 Prediction Result by BERTopic Model",
             use_column_width=True,
             output_format="PNG",
         )
@@ -179,7 +179,7 @@ When you first launch PREDTopic, it will automatically load the data and display
         )
         st.image(
             f"{images_path}prediction_LDA.png",
-            caption="Fig 5. Prediction Result by LDA Model",
+            caption="Fig 4.6 Prediction Result by LDA Model",
             use_column_width=True,
             output_format="PNG",
         )
@@ -192,15 +192,15 @@ with tab5:
     )
     col1, col2, col3 = st.columns([1, 1, 1])
     with col1:
-        st.markdown("##### Author", unsafe_allow_html=True)
+        st.markdown("#### Author", unsafe_allow_html=True)
         st.write("Nursyahrina")
 
     with col2:
-        st.markdown("##### Research Advisor 1", unsafe_allow_html=True)
+        st.markdown("#### Research Advisor 1", unsafe_allow_html=True)
         st.write("Prof. Dr. Sarjon Defit, S.Kom., M.Sc")
 
     with col3:
-        st.markdown("##### Research Advisor 2", unsafe_allow_html=True)
+        st.markdown("#### Research Advisor 2", unsafe_allow_html=True)
         st.write("Dr. Rini Sovia, S.Kom., M.Kom")
 
     st.write(
